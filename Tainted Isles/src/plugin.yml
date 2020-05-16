@@ -1,0 +1,27 @@
+name: TaintedIsles
+main: game.Game
+version: 1.0
+author: Angus
+api-version: 1.14
+commands:
+   uuid:
+   set:
+   mount:
+   instance:
+   list:
+   add:
+   delete:
+   party:
+   item:
+   loot:
+   spawnmob:
+   showms:
+   hidems:
+   all:
+   note:
+   gold:
+   artisan:
+   trophy:
+   prof:
+   setshop:
+      

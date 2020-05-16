@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/angus/OneDrive/Desktop/build path/TTA-4.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/angus/OneDrive/Desktop/build path/worldguard 1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/angus/OneDrive/Desktop/build path/worldedit 1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/angus/OneDrive/Desktop/build path/HolographicDisplays.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/angus/OneDrive/Desktop/build path/spigot-1.14.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/angus/OneDrive/Desktop/build path/Citizens 1.14.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
