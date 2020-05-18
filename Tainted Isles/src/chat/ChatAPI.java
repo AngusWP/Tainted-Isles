@@ -18,7 +18,7 @@ public class ChatAPI {
 
 		ChatColor rankColor = PermissionAPI.getRankColor(PermissionAPI.getRank(pl.getUniqueId()));
 		
-		if (PermissionAPI.isStaff(pl.getUniqueId())) {
+		if (PermissionAPI.isStaff(pl.getUniqueId()) || PermissionAPI.isBuilder(pl.getUniqueId())) {
 			rank = PermissionAPI.getRank(pl.getUniqueId()).toString() + " "; // formatting
 			
 			if (rank.contains("NORMAL")) {

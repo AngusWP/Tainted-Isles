@@ -17,6 +17,14 @@ public class PermissionAPI {
 		
 		return false;
 	}
+	
+	public static boolean isBuilder(UUID uuid) {
+		if (getRank(uuid) == Rank.BUILDER) {
+			return true;
+		}
+		
+		return false;
+	}
 
 	public static boolean isHighStaff(UUID uuid) {
 		if (getRank(uuid) == Rank.CM || getRank(uuid) == Rank.DEV || getRank(uuid) == Rank.ADMIN) {

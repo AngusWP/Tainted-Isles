@@ -5,6 +5,7 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import admin.AdminInput;
+import admin.AdminListener;
 import banks.BankListener;
 import chat.ChatInput;
 import chat.ChatListener;
@@ -66,6 +67,7 @@ public class Game extends JavaPlugin implements Listener {
 	public GuildListener guildListener;
 	public LootListener lootListener;
 	public BankListener bankListener;
+	public AdminListener adminListener;
 	public ProfessionListener professionListener;
 	
 	public void onEnable() {
@@ -88,6 +90,7 @@ public class Game extends JavaPlugin implements Listener {
 		shopListener = new ShopListener();
 		playerListener = new PlayerListener();
 		itemListener = new ItemListener();
+		adminListener = new AdminListener();
 		bankListener = new BankListener();
 		factionListener = new FactionListener();
 		chatListener = new ChatListener();
@@ -128,6 +131,7 @@ public class Game extends JavaPlugin implements Listener {
 		guildListener.onLoad();
 		goldListener.onLoad();
 		bankListener.onLoad();
+		adminListener.onLoad();
 		healthListener.onLoad();
 		chatListener.onLoad();
 		combatListener.onLoad();
@@ -159,6 +163,7 @@ public class Game extends JavaPlugin implements Listener {
 		factionListener.onUnload();
 		chatListener.onUnload();
 		professionListener.onUnload();
+		adminListener.onUnload();
 		shopListener.onUnload();
 		permissionListener.onUnload();
 		friendListener.onUnload();
