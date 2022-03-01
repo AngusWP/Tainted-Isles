@@ -1,1 +1,3 @@
+The old, first version of Tainted Isles. Very much learning to code, so that's why it's very spaghetti-like...
+
 Minecraft MMORPG.
